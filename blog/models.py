@@ -10,4 +10,5 @@ class BlogsPost(models.Model):
 class BlogPostAdmin(admin.ModelAdmin):
     list_display = ('title','timestamp')
 
+# hello
 admin.site.register(BlogsPost, BlogPostAdmin)
